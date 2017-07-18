@@ -1,5 +1,4 @@
 # SIMPLE CALCULATOR
-##### This is a simple calculator project made at codepen.io
 ##### A Pen created at CodePen.io. You can find this one at http://codepen.io/pauloraoni/pen/KmGNyJ.
 
 ### Features

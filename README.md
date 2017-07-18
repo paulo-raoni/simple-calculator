@@ -1,12 +1,12 @@
 # SIMPLE CALCULATOR
 ##### A Pen created at CodePen.io. You can find this one at http://codepen.io/pauloraoni/pen/KmGNyJ.
 
-### Features
+## Features
 - Simple arithmetic operators (+-/*).
 - You can see the whole expression as you add more calculations.
 - Visually similar to a real calculator.
 
-### Credits
+## Credits
 
 
 ##### Frameworks/Libraries/Preprocessors:
@@ -23,7 +23,7 @@
 
 - Special Thanks to [codepen.io](https://codepen.io/)
 
-### License
+## License
 
 Copyright (c) 2017 by Paulo Raoni Costa Bezerra (http://codepen.io/pauloraoni/pen/KmGNyJ)
 

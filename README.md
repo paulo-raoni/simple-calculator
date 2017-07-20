@@ -19,6 +19,8 @@
 
 - [SASS](http://sass-lang.com/)
 
+- [Google Fonts](https://fonts.google.com)
+
 ##### IDE:
 
 - Special Thanks to [codepen.io](https://codepen.io/)

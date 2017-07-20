@@ -13,7 +13,7 @@
 
 ## Credits
 
-##### Frameworks/Libraries/Preprocessors:
+##### Frameworks/Libraries/Preprocessors/Repositories:
 
 - [jQuery](https://jquery.com/)
 

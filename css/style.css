@@ -148,6 +148,10 @@ body {
   transform: translateY(4px);
 }
 
+.eachButton:focus {
+  outline-color: transparent;
+}
+
 .signature {
   text-align: center;
 }

@@ -143,7 +143,6 @@ body {
 }
 
 .eachButton:active {
-  background-color: #4c3e3e;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }

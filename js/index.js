@@ -1,12 +1,12 @@
 $(function() {
-  var total;
-  var numberNow;
-  var soma;
-  var $screen = $(".screen");
-  var $results = $(".results");
-  var $processed = $(".processed");
-  var $button = $("button");
-  var buttonVal;
+  var total,
+      numberNow,
+      soma,
+      $screen = $(".screen"),
+      $results = $(".results"),
+      $processed = $(".processed"),
+      $button = $("button"),
+      buttonVal;
 
   //'numero()' check first the current number is too large and resize it util length of 15 characters. After this size, warns that the calculator will be redefined. 
   //'numero()' check then if 'total' is empty, if true 'total' receives current value and prints it. Else if 'value' is 0 and total's length is equal to 1, prevent to add another 0 to total by continuing. Else if 'total' is already filled with some value, increment it with the new current value.

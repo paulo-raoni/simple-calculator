@@ -139,29 +139,48 @@ $(function() {
     calc(buttonVal);
   });
   
-  /*KEYBOARD INPUT HANDLE*/
+  /*KEYBOARD INPUT HANDLER*/
   $(document).keypress(function(e){
-    if(e.which == 48) $('#zero').click();
-    if(e.which == 49) $('#one').click();
-    if(e.which == 50) $('#two').click();
-    if(e.which == 51) $('#three').click();
-    if(e.which == 52) $('#four').click();
-    if(e.which == 53) $('#five').click();
-    if(e.which == 54) $('#six').click();
-    if(e.which == 55) $('#seven').click();
-    if(e.which == 56) $('#eight').click();
-    if(e.which == 57) $('#nine').click();
-    if(e.which == 42) $('#multiplication').click();
-    if(e.which == 47) $('#division').click();
-    if(e.which == 45) $('#subtraction').click();
-    if(e.which == 43) $('#addition').click();
-    if(e.which == 46) $('#dot').click();
-    if(e.which == 13) $('#equal').click();
-    if(e.which == 8) $('#clear').click();
-    if(e.which == 46) $('#clear').click();
-    if(e.which == 27) $('#clear').click();
-   });
-   /*KEYBOARD INPUT HANDLE*/
+    if(e.which == 48) 
+      $('#zero').click();
+    if(e.which == 49) 
+      $('#one').click();
+    if(e.which == 50) 
+      $('#two').click();
+    if(e.which == 51) 
+      $('#three').click();
+    if(e.which == 52) 
+      $('#four').click();
+    if(e.which == 53) 
+      $('#five').click();
+    if(e.which == 54) 
+      $('#six').click();
+    if(e.which == 55) 
+      $('#seven').click();
+    if(e.which == 56) 
+      $('#eight').click();
+    if(e.which == 57) 
+      $('#nine').click();
+    if(e.which == 42) 
+      $('#multiplication').click();
+    if(e.which == 47) 
+      $('#division').click();
+    if(e.which == 45) 
+      $('#subtraction').click();
+    if(e.which == 43) 
+      $('#addition').click();
+    if(e.which == 46)
+      $('#dot').click();
+    if(e.which == 13) 
+      $('#equal').click();
+    
+    
+  });
+  $(document).keydown(function(e){
+    if(e.which == 8 || e.which == 27 || e.which == 67 || e.which == 99)
+      $('#clear').click();
+  });
+   /*KEYBOARD INPUT HANDLER*/   
   
 
 });

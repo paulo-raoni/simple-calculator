@@ -5,24 +5,24 @@ div(class="main container-fluid")
           p.results 0
           p.processed 
         .allButtons    
-          button.buttonZero.eachButton(value = 0) 0
-          button.buttonOne.eachButton(value = 1) 1
-          button.buttonTwo.eachButton(value = 2) 2
-          button.buttonThree.eachButton(value = 3) 3
-          button.buttonFour.eachButton(value = 4) 4
-          button.buttonFive.eachButton(value = 5) 5
-          button.buttonSix.eachButton(value = 6) 6
-          button.buttonSeven.eachButton(value = 7) 7
-          button.buttonEight.eachButton(value = 8) 8
-          button.buttonNine.eachButton(value = 9) 9
-          button.buttonTimes.eachButton(value = '*') *
-          button.buttonDivide.eachButton(value = '/') /    
-          button.buttonMinus.eachButton(value = '-') -
-          button.buttonPlus.eachButton(value = '+') +
-          button.buttonDot.eachButton(value = '.') .
-          button.buttonResult.eachButton(value = '=') =
-          button.buttonC.eachButton(value = 'clear') C
-  
+          button#zero.buttonZero.eachButton(value='0') 0
+          button#one.buttonOne.eachButton(value='1') 1
+          button#two.buttonTwo.eachButton(value='2') 2
+          button#three.buttonThree.eachButton(value='3') 3
+          button#four.buttonFour.eachButton(value='4') 4
+          button#five.buttonFive.eachButton(value='5') 5
+          button#six.buttonSix.eachButton(value='6') 6
+          button#seven.buttonSeven.eachButton(value='7') 7
+          button#eight.buttonEight.eachButton(value='8') 8
+          button#nine.buttonNine.eachButton(value='9') 9
+          button#multiplication.buttonTimes.eachButton(value='*') *
+          button#division.buttonDivide.eachButton(value='/') /    
+          button#subtraction.buttonMinus.eachButton(value='-') -
+          button#addition.buttonPlus.eachButton(value='+') +
+          button#dot.buttonDot.eachButton(value='.') .
+          button#equal.buttonResult.eachButton(value='=', onclick='calc(value)') =
+          button#clear.buttonC.eachButton(value='clear', onclick='calc(value)') C
+          
 .signature COPYRIGHT © 2017 by 
   a(href = 'https://github.com/paulo-raoni/simple-calculator' target = '_blank')
     span PAULO RAONI

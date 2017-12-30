@@ -33,7 +33,7 @@ $(function() {
       numberNow = value;
       $results.text(total);
       $processed.text(total);
-    } else if (value == "0" && total.length == 1) {
+    } else if (value == "0" && total.length == 0) {
       Continue;
     } else {
       total += value;

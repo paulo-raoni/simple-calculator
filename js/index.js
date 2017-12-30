@@ -140,7 +140,7 @@ $(function() {
   });
   
   /*KEYBOARD INPUT HANDLE*/
-  $(document).keydown(function(e){
+  $(document).keypress(function(e){
     if(e.which == 48) $('#zero').click();
     if(e.which == 49) $('#one').click();
     if(e.which == 50) $('#two').click();
